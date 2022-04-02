@@ -1,0 +1,2 @@
+kuznetsov/hse/kmm/android/BuildConfig.java
+ kuznetsov.hse.kmm.android.BuildConfig

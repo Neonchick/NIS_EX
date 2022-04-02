@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.insert-koin:koin-core:darwinMain:3.1.2" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/commonTest/implementation/io.insert-koin-koin-core/io.insert-koin-koin-core-darwinMain.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core/3.1.2/f5d6aa5a89a30ac691696201c3797e7ca1674e8b/koin-core-3.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

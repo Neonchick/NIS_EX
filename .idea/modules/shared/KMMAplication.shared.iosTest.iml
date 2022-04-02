@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":shared:iosTest" external.linked.project.path="$MODULE_DIR$/../../../shared" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="KMMAplication" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="Common (experimental) " allPlatforms="Native []/Native [ios_arm64]/Native [ios_x64]" useProjectSettings="false" isTestModule="true" externalProjectId=":shared" isHmppProject="true" pureKotlinSourceFolders="$MODULE_DIR$/../../../shared/src/androidDebug/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/debug/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/debug/java;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/androidDebugAndroidTest/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/androidDebugUnitTest/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/androidRelease/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/release/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/release/java;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/androidReleaseUnitTest/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/iosArm64Main/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/iosArm64Main/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/iosX64Main/kotlin;/Users/mfkuznetsov/Documents/GitHub/HIS/shared/src/iosX64Main/kotlin">
+        <dependsOnModuleNames>:shared:commonTest</dependsOnModuleNames>
+        <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="languageVersion" value="1.5" />
+          <option name="apiVersion" value="1.5" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.5.31/a06ef07ca3822b0d9c11c69296cd27765f4ed5bb/kotlin-gradle-plugin-api-1.5.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.5.31/d854edda951feb05387ada385f8f3462ec01a885/kotlin-scripting-jvm-1.5.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.5.31/512a5997987cd210dcd5442da6aef00a5c12de90/kotlin-scripting-common-1.5.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.0/d8cebccdcddd029022aa8646a5a953ff88b13ac8/kotlinx-coroutines-core-jvm-1.5.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.0/65fbc439df2e4aad1f3769762d54534f1b564090/kotlin-stdlib-jdk8-1.5.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.0/f61904618ea7be07a66e0545ffe8dc2c70a19b77/kotlin-stdlib-jdk7-1.5.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.31/6628d61d0f5603568e72d2d5915d2c034b4f1c55/kotlin-stdlib-1.5.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-native-utils/1.5.31/3f56bbbc08afd14fbb94bcd558b861be66a3cba9/kotlin-native-utils-1.5.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-project-model/1.5.31/3a6adaf7f626af7ce62a3734975eb2154ae12e58/kotlin-project-model-1.5.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.31/43331609c7de811fed085e0dfd150874b157c32/kotlin-stdlib-common-1.5.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-util-io/1.5.31/61c784021068d1ddd347eeba86384dbf92c725ca/kotlin-util-io-1.5.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.5.31/aaea854be2cfc06373dfc11be5a6ba9ca5ca84a6/kotlin-script-runtime-1.5.31.jar" />
+              <option value="$KOTLIN_BUNDLED$/lib/kotlinx-serialization-compiler-plugin.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/androidMain/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../shared/src/main/res;file://$MODULE_DIR$/../../../shared/src/androidMain/res;file://$MODULE_DIR$/../../../shared/src/debug/res;file://$MODULE_DIR$/../../../shared/src/androidDebug/res;file://$MODULE_DIR$/../../../shared/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../shared/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../shared/src/androidTest/res;file://$MODULE_DIR$/../../../shared/src/androidAndroidTest/res;file://$MODULE_DIR$/../../../shared/src/androidTestDebug/res;file://$MODULE_DIR$/../../../shared/src/androidAndroidTestDebug/res;file://$MODULE_DIR$/../../../shared/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../shared/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../shared/src/iosTest/kotlin">
+      <sourceFolder url="file://$MODULE_DIR$/../../../shared/src/iosTest/kotlin" type="kotlin-test" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../shared/src/iosTest/resources" />
+    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.31 - stdlib" level="project" />
+    <orderEntry type="module" module-name="KMMAplication.shared.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="KMMAplication.shared.commonTest" scope="TEST" production-on-test="" />
+    <orderEntry type="module" module-name="KMMAplication.shared.iosMain" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.sqldelight:coroutines-extensions:commonMain:1.5.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.sqldelight:runtime:commonMain:1.5.3" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: com.squareup.sqldelight:runtime:nativeMain:1.5.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/api/com.squareup.sqldelight-runtime/com.squareup.sqldelight-runtime-nativeMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.sqldelight/runtime/1.5.3/47692d9147c9f457d09bf41b336f5c7d614f42df/runtime-1.5.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreFoundation" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Network" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: co.touchlab:stately-collections:commonMain:1.1.10">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/api/co.touchlab-stately-collections/co.touchlab-stately-collections-commonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-collections/1.1.10/2caa476c2cbf739fa79aecd8a9da0635f782b2ca/stately-collections-1.1.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: co.touchlab:stately-collections:nativeCommonMain:1.1.10">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/api/co.touchlab-stately-collections/co.touchlab-stately-collections-nativeCommonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-collections/1.1.10/2caa476c2cbf739fa79aecd8a9da0635f782b2ca/stately-collections-1.1.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-serialization:commonMain:1.6.5" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.QuartzCore" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: co.touchlab:stately-common:commonMain:1.1.10">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/api/co.touchlab-stately-common/co.touchlab-stately-common-commonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-common/1.1.10/a3b38cb92328fa4bcb83b0620d1779b532564b6e/stately-common-1.1.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: co.touchlab:stately-common:nativeCommonMain:1.1.10">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/api/co.touchlab-stately-common/co.touchlab-stately-common-nativeCommonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-common/1.1.10/a3b38cb92328fa4bcb83b0620d1779b532564b6e/stately-common-1.1.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-logging:commonMain:1.6.5" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MLCompute" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: co.touchlab:stately-concurrency:commonMain:1.1.10">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/api/co.touchlab-stately-concurrency/co.touchlab-stately-concurrency-commonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-concurrency/1.1.10/ba0c2b68ca733a2a38b8b73b829c8b35375fe5b8/stately-concurrency-1.1.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: co.touchlab:stately-concurrency:darwinMain:1.1.10">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/api/co.touchlab-stately-concurrency/co.touchlab-stately-concurrency-darwinMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-concurrency/1.1.10/ba0c2b68ca733a2a38b8b73b829c8b35375fe5b8/stately-concurrency-1.1.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: co.touchlab:stately-concurrency:nativeCommonMain:1.1.10">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/api/co.touchlab-stately-concurrency/co.touchlab-stately-concurrency-nativeCommonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-concurrency/1.1.10/ba0c2b68ca733a2a38b8b73b829c8b35375fe5b8/stately-concurrency-1.1.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-core:commonMain:1.6.5" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Security" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:kermit:commonMain:1.0.0" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CloudKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.5.2-native-mt" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.5.2-native-mt" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.VideoSubscriberAccount" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.insert-koin:koin-core:commonMain:3.1.2" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.OpenGLES3" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:commonMain:0.3.1" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Accessibility" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.5.31" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.GameKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-json:commonMain:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.5.31" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AVFoundation" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json:commonMain:1.3.0" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CFNetwork" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-cio:commonMain:1.6.5" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.WebKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http:commonMain:1.6.5" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Metal" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:commonMain:1.3.0" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreMotion" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-utils:commonMain:1.6.5" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.iconv" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-io:commonMain:1.6.5" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Messages" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.OpenGLES2" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MediaToolbox" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.posix" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreHaptics" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.UniformTypeIdentifiers" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AppTrackingTransparency" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.EventKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreAudio" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.StoreKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ContactsUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MultipeerConnectivity" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.SafariServices" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MetricKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AddressBook" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.SpriteKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreAudioKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreText" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Twitter" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.LocalAuthentication" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AutomaticAssessmentConfiguration" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreGraphics" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.NewsstandKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreData" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.SceneKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.OpenGLESCommon" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ReplayKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.SoundAnalysis" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.QuickLookThumbnailing" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreMedia" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.iAd" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.GameController" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ClockKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreSpotlight" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.zlib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.PDFKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.UIKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.FileProviderUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MetalPerformanceShaders" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CarPlay" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AppClip" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Contacts" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.OpenAL" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.GameplayKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CommonCrypto" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.PassKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AudioToolbox" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.GLKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MediaAccessibility" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Vision" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MetalPerformanceShadersGraph" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.HomeKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreServices" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Speech" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ExposureNotification" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.BackgroundTasks" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreAudioTypes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CallKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MediaSetup" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreML" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AdSupport" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AVKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ModelIO" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Social" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.HealthKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.NaturalLanguage" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CryptoTokenKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MapKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Intents" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.IOSurface" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MessageUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AssetsLibrary" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.EventKitUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.NetworkExtension" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AuthenticationServices" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ARKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.UserNotificationsUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.UserNotifications" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ClassKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Accounts" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.BusinessChat" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.AddressBookUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.VideoToolbox" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.PushKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Accelerate" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ImageCaptureCore" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.EAGL" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.DeviceCheck" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.builtin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreMIDI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreVideo" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.IntentsUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.WatchConnectivity" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.darwin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.PencilKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MobileCoreServices" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreLocation" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.objc" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.IdentityLookupUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreTelephony" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.NotificationCenter" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.FileProvider" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ImageIO" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.GSS" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.LinkPresentation" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ExternalAccessory" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.SensorKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Foundation" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.IdentityLookup" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.SystemConfiguration" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.Photos" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreImage" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.OpenGLES" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.NearbyInteraction" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.JavaScriptCore" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreBluetooth" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.HealthKitUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.PhotosUI" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.QuickLook" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.CoreNFC" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MediaPlayer" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.MetalKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.ScreenTime" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-1.5.31/klib/commonized/1.5.31/(ios_arm64, ios_x64)/org.jetbrains.kotlin.native.platform.VisionKit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.sqldelight:native-driver:nativeDarwinMain:1.5.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.sqldelight:native-driver:nativeMain:1.5.3" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-client-serialization:posixMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-client-serialization/io.ktor-ktor-client-serialization-posixMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-serialization/1.6.5/63c3907d7ba8988fc480d180ce25e06dbb6c2e42/ktor-client-serialization-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-client-logging:posixMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-client-logging/io.ktor-ktor-client-logging-posixMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-logging/1.6.5/3f36107d9cb9c6046f093574370d1bb07ab64f6d/ktor-client-logging-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-client-core:posixMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-client-core/io.ktor-ktor-client-core-posixMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/1.6.5/b6c35a6b9bc30ae137845e1ebab40e3a2714f9de/ktor-client-core-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: co.touchlab:kermit:darwinMain:1.0.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/co.touchlab-kermit/co.touchlab-kermit-darwinMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/kermit/1.0.0/66b5f1ccbfb2df7c8021913aa8804a249beae871/kermit-1.0.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: co.touchlab:kermit:nativeMain:1.0.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/co.touchlab-kermit/co.touchlab-kermit-nativeMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/kermit/1.0.0/66b5f1ccbfb2df7c8021913aa8804a249beae871/kermit-1.0.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.5.2-native-mt">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.5.2-native-mt/ea10f0f0f615c217bfb24744586db79f3204f3bc/kotlinx-coroutines-core-1.5.2-native-mt-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.insert-koin:koin-core:darwinMain:3.1.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.insert-koin-koin-core/io.insert-koin-koin-core-darwinMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core/3.1.2/f5d6aa5a89a30ac691696201c3797e7ca1674e8b/koin-core-3.1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.insert-koin:koin-core:nativeMain:3.1.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.insert-koin-koin-core/io.insert-koin-koin-core-nativeMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core/3.1.2/f5d6aa5a89a30ac691696201c3797e7ca1674e8b/koin-core-3.1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:darwinMain:0.3.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-darwinMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime/0.3.1/e1612faa385b90ecfb319ce74668f812c4d63de3/kotlinx-datetime-0.3.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:nativeMain:0.3.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-nativeMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime/0.3.1/e1612faa385b90ecfb319ce74668f812c4d63de3/kotlinx-datetime-0.3.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:sqliter-driver:appleMain:1.0.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:sqliter-driver:nativeCommonMain:1.0.10" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-client-json:posixMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-client-json/io.ktor-ktor-client-json-posixMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json/1.6.5/f3db17e91b2cd87ddc35e38199833824d1b3f18f/ktor-client-json-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.16.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-commonMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.16.3/85ce868bdd87c9faef0bb5bcdf94e89df5b94fd/atomicfu-0.16.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.16.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeInterop.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.16.3/85ce868bdd87c9faef0bb5bcdf94e89df5b94fd/atomicfu-0.16.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.16.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.16.3/85ce868bdd87c9faef0bb5bcdf94e89df5b94fd/atomicfu-0.16.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json:nativeMain:1.3.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-serialization-json/org.jetbrains.kotlinx-kotlinx-serialization-json-nativeMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json/1.3.0/351db062cbf547bc293ae3a7e887e6f4653a109f/kotlinx-serialization-json-1.3.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-http-cio:posixMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-http-cio/io.ktor-ktor-http-cio-posixMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/1.6.5/646a7f02221ead54fc8aae927e9f1b5085c62f8a/ktor-http-cio-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-http:posixMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-http/io.ktor-ktor-http-posixMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http/1.6.5/e447e2ecdf4b1f338681a270901219f2fb6de2b4/ktor-http-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:nativeMain:1.3.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-nativeMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core/1.3.0/2bd9f9d80bb2b3d0b50d672f55283198cda27d83/kotlinx-serialization-core-1.3.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-utils:posixMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-utils/io.ktor-ktor-utils-posixMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.6.5/674ea4b9fdf3e2f63d9b402eb105a41ef7a5afb7/ktor-utils-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-utils:utilsInterop:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-utils/io.ktor-ktor-utils-utilsInterop.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.6.5/674ea4b9fdf3e2f63d9b402eb105a41ef7a5afb7/ktor-utils-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-io:bitsMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-io/io.ktor-ktor-io-bitsMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io/1.6.5/3d5d42ca27798b579f95e354d5d59c90839a0516/ktor-io-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-io:posixMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-io/io.ktor-ktor-io-posixMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io/1.6.5/3d5d42ca27798b579f95e354d5d59c90839a0516/ktor-io-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.ktor:ktor-io:socketsMain:1.6.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/iosMain/implementation/io.ktor-ktor-io/io.ktor-ktor-io-socketsMain.klib!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io/1.6.5/3d5d42ca27798b579f95e354d5d59c90839a0516/ktor-io-1.6.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="TestModuleProperties" production-module="KMMAplication.shared.iosMain" />
+</module>

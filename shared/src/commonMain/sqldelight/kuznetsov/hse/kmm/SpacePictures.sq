@@ -1,0 +1,26 @@
+CREATE TABLE SpacePictureDB (
+    platform TEXT NOT NULL,
+    title TEXT NOT NULL,
+    explanation TEXT NOT NULL,
+    url TEXT NOT NULL,
+    date TEXT NOT NULL
+);
+
+selectAll:
+SELECT * FROM SpacePictureDB;
+
+selectByPlatform:
+SELECT * FROM SpacePictureDB WHERE platform = ?;
+
+selectByTitle:
+SELECT * FROM SpacePictureDB WHERE title = ?;
+
+insertStats:
+INSERT OR IGNORE INTO SpacePictureDB(platform, title, explanation, url, date)
+VALUES (?,?, ?, ?, ?);
+
+deleteAll:
+DELETE FROM SpacePictureDB;
+
+deleteByTitle:
+DELETE FROM SpacePictureDB WHERE title = ?;

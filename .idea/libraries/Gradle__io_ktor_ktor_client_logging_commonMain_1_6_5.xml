@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ktor:ktor-client-logging:commonMain:1.6.5" type="kotlin.common">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/shared.KMMAplication/commonMain/implementation/io.ktor-ktor-client-logging/io.ktor-ktor-client-logging-commonMain.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-logging/1.6.5/3f36107d9cb9c6046f093574370d1bb07ab64f6d/ktor-client-logging-1.6.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
